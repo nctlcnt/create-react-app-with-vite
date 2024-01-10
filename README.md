@@ -24,9 +24,13 @@ Good to go
 ### path alias:
 Add code
 ```json
-"baseUrl": "./",
-"paths": {
-    "@/*": ["src/*"]
+{
+  "baseUrl": "./",
+  "paths": {
+    "@/*": [
+      "src/*"
+    ]
+  }
 }
 ```
 to `tsconfig.json`.
